@@ -68,8 +68,7 @@ while True:
                         needtagging = 0
                     else:
                         print '[ WARNING ] EC2 With WRONG TAG: ' + i.id
-
-                        exit(0)
+                        
                     break
 
         if needtagging == 1:
